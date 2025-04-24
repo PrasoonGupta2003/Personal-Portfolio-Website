@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasoon Gupta- Developer's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Courgette&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=Montserrat:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Left Side Navbar -->
+    <div class="left-nav" id="leftNav">
+        <span href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</span>
+        <p style="font-size: 1.4rem; color: #d39ff3;"><i>Prasoon's Portfolio</i></p>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact Me</a>
+    </div>
+
+    <header id="home">
+        <nav>
+            <div class="left">Prasoon's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hamburger Icon -->
+    <div class="hamburger" onclick="openNav()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <main>
+        <!-- Home section -->
+        <section id="homeSection" class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Prasoon Gupta </span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="btn">
+                    <button onclick="window.location.href='https://github.com/PrasoonGupta2003'">GitHub</button>
+                    <button onclick="window.location.href='https://www.linkedin.com/in/prasoon-gupta-a58b4a282/'">LinkedIn</button>
+                    <a href="My_Resume.pdf" download>
+                        <button>Resume</button>
+                    </a>        
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="img1.jpg" alt="developer's image">
+            </div> 
+        </section>
+
+        <hr>
+        <!-- About section -->
+        <section class="aboutSection" id="about">
+            <h2>About Me</h2>
+            <div class="card-container">
+              <div class="project-item">
+                <h3>Introduction</h3>
+                <p style="font-size: 1.2rem;">I am Prasoon Gupta, a B.Tech CSE student at IET Lucknow with a strong passion for web development, DSA, and problem solving. I’ve solved 350+ LeetCode problems and enjoy teaching and sports.</p>
+              </div>
+              <div class="project-item">
+                <h3>Skills</h3>
+                <ul>
+                  <li><strong>Languages:</strong> Java, JavaScript, C++, Python, C</li>
+                  <li><strong>Frontend:</strong> React, HTML, CSS, Tailwind, Bootstrap</li>
+                  <li><strong>Backend:</strong> Node.js, Express</li>
+                  <li><strong>Databases:</strong> MongoDB, MySQL</li>
+                  <li><strong>Tools:</strong> GitHub, VS Code, IntelliJ</li>
+                </ul>
+              </div>
+              <div class="project-item">
+                <h3>Achievements</h3>
+                <ul>
+                  <li>350+ Leetcode problems solved</li>
+                  <li>Cracked JEE Mains 2023 with 97 percentile — Top 3% nationwide.</li>
+                  <li>95% in 12th (PCMB), 96% in 10th (CBSE)</li>
+                </ul>
+              </div>
+              <div class="project-item">
+                <h3>Certifications</h3>
+                <ul>
+                  <li>
+                    <strong>Data Structures & Algorithms in Java</strong> - PW Skills <i>(2024)</i><br />
+                    Gained in-depth knowledge of DSA concepts using Java. Solved 350+ LeetCode problems alongside the course.
+                  </li>
+                  <li>
+                    <strong>Grammar and Vocabulary Certification</strong> - Pearson <i>(2023)</i><br />
+                    Demonstrated proficiency in English grammar and vocabulary, improving communication and writing skills.
+                  </li>
+                </ul>
+              </div>   
+              <div class="project-item">
+                <h3>Hobbies</h3>
+                <ul>
+                  <li>Teaching</li>
+                  <li>Playing Sports</li>
+                </ul>
+              </div>           
+            </div>
+          </section>          
+          <hr>
+          <!-- Experience section -->
+        <section id="experience" class="secondSection">
+            <h1 style="font-size: 2.5rem; margin-top: 20px; margin-bottom: 40px;">Experience</h1>
+            <div style="display: flex; justify-content: space-between; gap: 50px; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 280px; margin-bottom: 40px;">
+                    <h2 style="color: #aa2dfa; font-size: 1.5rem;">Self-Taught Full Stack Developer</h2>
+                    <p style="opacity: 0.8; font-style: italic;">Personal Projects & Learning | 2025 - Present</p>
+                    <ul style="margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                        <li>Developed full-stack applications using the MERN stack with authentication and REST APIs.</li>
+                        <li>Designed responsive UIs with React.js and Tailwind CSS.</li>
+                        <li>Deployed projects on GitHub with clean, reusable code and proper version control.</li>
+                    </ul>
+                </div>
+
+                <div style="flex: 1; min-width: 280px; margin-bottom: 40px;">
+                    <h2 style="color: #aa2dfa; font-size: 1.5rem;">Competitive Programmer</h2>
+                    <p style="opacity: 0.8; font-style: italic;">LeetCode & DSA Practice | 2024 - Present</p>
+                    <ul style="margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                        <li>Solved over 350 problems on LeetCode in Java, C++, and Python.</li>
+                        <li>Practiced algorithms including DP, recursion, graphs, and greedy techniques.</li>
+                        <li>Improved time/space complexity analysis and coding efficiency.</li>
+                    </ul>
+                </div>
+
+                <div style="flex: 1; min-width: 280px; margin-bottom: 40px;">
+                    <h2 style="color: #aa2dfa; font-size: 1.5rem;">Tech Stack Explorer</h2>
+                    <p style="opacity: 0.8; font-style: italic;">Tooling & Environment</p>
+                    <ul style="margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                        <li>Proficient with VS Code, IntelliJ IDEA, Git/GitHub, MySQL, and MongoDB.</li>
+                        <li>Connected frontend, backend, and databases in real-world full-stack apps.</li>
+                        <li>Comfortable navigating CLI, debugging tools, and database UIs.</li>
+                    </ul>
+                </div>
+
+                <div style="flex: 1; min-width: 280px; margin-bottom: 40px;">
+                    <h2 style="color: #aa2dfa; font-size: 1.5rem;">Project Contributor</h2>
+                    <p style="opacity: 0.8; font-style: italic;">Solo & Team-Based Builds | 2024 - Present</p>
+                    <ul style="margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                        <li>Created and maintained personal and collaborative projects using Git and GitHub workflows.</li>
+                        <li>Followed structured development practices like branching, commits, and PR reviews.</li>
+                        <li>Built projects from idea to deployment, integrating frontend, backend, and databases.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Project Section -->
+        <section id="projects" class="projectSection">
+            <h1 class="section-heading" style="font-size: 2.5rem;  padding: 60px 20px;">Projects</h1>
+            <div class="project-list">
+                <div class="project-item">
+                    <h2>Wanderlust - Airbnb Clone</h2>
+                    <p>A full-stack MERN application where users can list rental places. Used MongoDB, Express, React, Node.js, NPM packages and  along with Bootstrap for styling. Deployed on Render. Learned about MVC model that made me organise a clean architecture for the app.</p>
+                </div>
+                <div class="project-item">
+                    <h2>Chatbox - WhatsApp Clone</h2>
+                    <p>A CRUD chat app(ChatBox) implementing RESTful API concepts where users can create, edit, and delete messages.Chats were stored and managed using arrays that helper me master JS.</p>
+                </div>
+                <div class="project-item">
+                    <h2>Frontend Games Collection</h2>
+                    <p>Developed multiple mini-games like Snake Game, Simon Says, Guesser Game, and Rock Paper Scissors using JavaScript and DOM(Document Obect Model) with event handlers.</p>
+                </div>
+                <div class="project-item">
+                    <h2>Netflix & Amazon UI Clones</h2>
+                    <p>Designed frontend clones of Netflix and Amazon interfaces to improve UI/UX skills using HTML, CSS, and JavaScript. Tried to make them responsive using media queries.</p>
+                </div>
+                <div class="project-item">
+                    <h2>Weather App</h2>
+                    <p>A sleek and responsive weather application built using React.js that allows users to search for real-time weather updates of any city across the globe.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+        <!-- Contact section -->
+        <section class="contactSection" id="contact">
+            <h2>Contact Me</h2>
+            <p class="email">📧 prasoong82@gmail.com</p>
+            <p class="email">📧 prasoong297@gmail.com</p>
+            <div class="contact-buttons">
+                <a href="https://github.com/PrasoonGupta2003" target="_blank" class="contact-btn">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/prasoon-gupta-a58b4a282/" target="_blank" class="contact-btn">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </section>
+        
+        
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2025 Prasoon Gupta. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/PrasoonGupta2003" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/prasoon-gupta-a58b4a282/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="#" target="_blank"><i class="fa-solid fa-address-card"></i> Resume</a>
+            </div>
+            
+        </div>
+    </footer>
+
+    <!-- Typed Js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web Developer</i>','<i>DSA Enthusiast</i>'],
+            typeSpeed: 50,
+        });
+
+        function openNav() {
+            document.getElementById("leftNav").style.left = "0"; // Open the sidebar
+        }
+
+        function closeNav() {
+            document.getElementById("leftNav").style.left = "-250px"; // Close the sidebar
+        }
+    </script>
+</body>
+</html>
