@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Prasoon Gupta - Full Stack Developer and DSA Enthusiast.">
+    <meta name="author" content="Prasoon Gupta">
     <title>Prasoon Gupta- Developer's Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Courgette&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=Montserrat:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
     
@@ -19,6 +21,7 @@
         <p style="font-size: 1.4rem; color: #d39ff3;"><i>Prasoon's Portfolio</i></p>
         <a href="#home">Home</a>
         <a href="#about">About</a>
+        <a href="#education">Education</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact Me</a>
@@ -31,6 +34,7 @@
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact Me</a></li>
@@ -56,13 +60,13 @@
                 <div class="btn">
                     <button onclick="window.location.href='https://github.com/PrasoonGupta2003'">GitHub</button>
                     <button onclick="window.location.href='https://www.linkedin.com/in/prasoon-gupta-a58b4a282/'">LinkedIn</button>
-                    <a href="My_Resume.pdf" download>
+                    <a href="assets/My_Resume.pdf" download>
                         <button>Download Resume</button>
                     </a>        
                 </div>
             </div>
             <div class="rightSection">
-                <img src="img1.jpg" alt="developer's image">
+                <img src="assets/img1.jpg" alt="developer's image">
             </div> 
         </section>
 
@@ -77,14 +81,36 @@
               </div>
               <div class="project-item">
                 <h3>Skills</h3>
-                <ul>
-                  <li><strong>Languages:</strong> Java, JavaScript, C++, Python, C</li>
-                  <li><strong>Frontend:</strong> React, HTML, CSS, Tailwind, Bootstrap</li>
-                  <li><strong>Backend:</strong> Node.js, Express</li>
-                  <li><strong>Databases:</strong> MongoDB, MySQL</li>
-                  <li><strong>Tools:</strong> GitHub, VS Code, IntelliJ</li>
+                <ul style="list-style: none; padding-left: 0;">
+                  <li><strong>Languages:</strong>
+                    <i class="fab fa-java"></i> Java,
+                    <i class="fab fa-js-square"></i> JavaScript,
+                    <i class="fas fa-code"></i> C++,
+                    <i class="fab fa-python"></i> Python,
+                    <i class="fas fa-code"></i> C
+                  </li>
+                  <li><strong>Frontend:</strong>
+                    <i class="fab fa-react"></i> React,
+                    <i class="fab fa-html5"></i> HTML,
+                    <i class="fab fa-css3-alt"></i> CSS,
+                    <i class="fas fa-wind"></i> Tailwind,
+                    <i class="fab fa-bootstrap"></i> Bootstrap
+                  </li>
+                  <li><strong>Backend:</strong>
+                    <i class="fab fa-node-js"></i> Node.js,
+                    <i class="fas fa-server"></i> Express
+                  </li>
+                  <li><strong>Databases:</strong>
+                    <i class="fas fa-database"></i> MongoDB,
+                    <i class="fas fa-database"></i> MySQL
+                  </li>
+                  <li><strong>Tools:</strong>
+                    <i class="fab fa-github"></i> GitHub,
+                    <i class="fas fa-code"></i> VS Code,
+                    <i class="fas fa-lightbulb"></i> IntelliJ
+                  </li>
                 </ul>
-              </div>
+              </div>              
               <div class="project-item">
                 <h3>Achievements</h3>
                 <ul>
@@ -122,57 +148,84 @@
                   </li>
                 </ul>                
               </div>    
-                                      
-              <div class="project-item">
-                <h3>Hobbies</h3>
-                <ul>
-                  <li>Teaching</li>
-                  <li>Playing Sports</li>
-                </ul>
-              </div>           
             </div>
-          </section>          
+        </section>
           <hr>
 
+          <!-- Education section -->
+          <section class="educationSection" id="education">
+              <h2>Education</h2>
+              <div class="card-container">
+                  <div class="project-item">
+                      <h3>Bachelor of Technology (B.Tech) in Computer Science and Engineering</h3>
+                      <p><strong>Institute of Engineering and Technology (IET), Lucknow</strong></p>
+                      <p><i>2023 - Present</i></p>
+                      <ul>
+                          <li>Currently pursuing B.Tech in Computer Science and Engineering.</li>
+                          <li>Focus areas: Web Development, Data Structures & Algorithms, and Problem Solving.</li>
+                      </ul>
+                  </div>
+                  <div class="project-item">
+                      <h3>Senior Secondary Education (12th Grade)</h3>
+                      <p><strong>St. Mary's Inter College, Etawah (CBSE Board)</strong></p>
+                      <p><i>Graduated: 2022</i></p>
+                      <ul>
+                          <li>Stream: PCMB (Physics, Chemistry, Mathematics, Biology)</li>
+                          <li>Scored 95% in 12th Board Examinations.</li>
+                      </ul>
+                  </div>
+                  <div class="project-item">
+                      <h3>Secondary Education (10th Grade)</h3>
+                      <p><strong>St. Mary's Inter College, Etawah (CBSE Board)</strong></p>
+                      <p><i>Graduated: 2020</i></p>
+                      <ul>
+                          <li>Scored 96% in 10th Board Examinations.</li>
+                      </ul>
+                  </div>
+              </div>
+          </section>
+          <hr>
         <!-- Experience section -->
         <section id="experience" class="experienceSection">
-            <h2>Experience</h2>
-            <div class="project-list">
-                <div class="project-item">
-                    <h3>Self-Taught Full Stack Developer</h3>
-                    <p style="opacity: 0.8; font-style: italic;">Personal Projects & Learning | 2025 - Present</p>
-                    <ul>
-                        <li>Developed full-stack applications using the MERN stack with authentication and REST APIs.</li>
-                        <li>Designed responsive UIs with React.js and Tailwind CSS.</li>
-                        <li>Deployed projects on GitHub with clean, reusable code and proper version control.</li>
-                    </ul>
-                </div>
-                <div class="project-item">
-                    <h3>Competitive Programmer</h3>
-                    <p style="opacity: 0.8; font-style: italic;">LeetCode & DSA Practice | 2024 - Present</p>
-                    <ul>
-                        <li>Solved over 350 problems on LeetCode in Java, C++, and Python.</li>
-                        <li>Practiced algorithms including DP, recursion, graphs, and greedy techniques.</li>
-                        <li>Improved time/space complexity analysis and coding efficiency.</li>
-                    </ul>
-                </div>
-                <div class="project-item">
-                    <h3>Tech Stack Explorer</h3>
-                    <p style="opacity: 0.8; font-style: italic;">Tooling & Environment</p>
-                    <ul>
-                        <li>Proficient with VS Code, IntelliJ IDEA, Git/GitHub, MySQL, and MongoDB.</li>
-                        <li>Connected frontend, backend, and databases in real-world full-stack apps.</li>
-                        <li>Comfortable navigating CLI, debugging tools, and database UIs.</li>
-                    </ul>
-                </div>
-                <div class="project-item">
-                    <h3>Project Contributor</h3>
-                    <p style="opacity: 0.8; font-style: italic;">Solo & Team-Based Builds | 2024 - Present</p>
-                    <ul>
-                        <li>Created and maintained personal and collaborative projects using Git and GitHub workflows.</li>
-                        <li>Followed structured development practices like branching, commits, and PR reviews.</li>
-                        <li>Built projects from idea to deployment, integrating frontend, backend, and databases.</li>
-                    </ul>
+            <div class="card-container">
+                <h1 class="section-heading" style="font-size: 2.5rem;  padding: 60px 20px;">Experience</h1>
+                <div class="project-list">
+                    <div class="project-item">
+                        <h3>Self-Taught Full Stack Developer</h3>
+                        <p style="opacity: 0.8; font-style: italic;">Personal Projects & Learning | 2025 - Present</p>
+                        <ul>
+                            <li>Developed full-stack applications using the MERN stack with authentication and REST APIs.</li>
+                            <li>Designed responsive UIs with React.js and Tailwind CSS.</li>
+                            <li>Deployed projects on GitHub with clean, reusable code and proper version control.</li>
+                        </ul>
+                    </div>
+                    <div class="project-item">
+                        <h3>Competitive Programmer</h3>
+                        <p style="opacity: 0.8; font-style: italic;">LeetCode & DSA Practice | 2024 - Present</p>
+                        <ul>
+                            <li>Solved over 350 problems on LeetCode in Java, C++, and Python.</li>
+                            <li>Practiced algorithms including DP, recursion, graphs, and greedy techniques.</li>
+                            <li>Improved time/space complexity analysis and coding efficiency.</li>
+                        </ul>
+                    </div>
+                    <div class="project-item">
+                        <h3>Tech Stack Explorer</h3>
+                        <p style="opacity: 0.8; font-style: italic;">Tooling & Environment</p>
+                        <ul>
+                            <li>Proficient with VS Code, IntelliJ IDEA, Git/GitHub, MySQL, and MongoDB.</li>
+                            <li>Connected frontend, backend, and databases in real-world full-stack apps.</li>
+                            <li>Comfortable navigating CLI, debugging tools, and database UIs.</li>
+                        </ul>
+                    </div>
+                    <div class="project-item">
+                        <h3>Project Contributor</h3>
+                        <p style="opacity: 0.8; font-style: italic;">Solo & Team-Based Builds | 2024 - Present</p>
+                        <ul>
+                            <li>Created and maintained personal and collaborative projects using Git and GitHub workflows.</li>
+                            <li>Followed structured development practices like branching, commits, and PR reviews.</li>
+                            <li>Built projects from idea to deployment, integrating frontend, backend, and databases.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -189,11 +242,11 @@
                 </div>
                 <div class="project-item">
                     <h2>Chatbox - WhatsApp Clone</h2>
-                    <p>A CRUD chat app(ChatBox) implementing RESTful API concepts where users can create, edit, and delete messages.Chats were stored and managed using arrays that helper me master JS.</p>
+                    <p>A CRUD chat app(ChatBox) implementing RESTful API concepts where users can create, edit, and delete messages.Chats were stored and managed using arrays that helped me master JS.</p>
                 </div>
                 <div class="project-item">
                     <h2>Frontend Games Collection</h2>
-                    <p>Developed multiple mini-games like Snake Game, Simon Says, Guesser Game, and Rock Paper Scissors using JavaScript and DOM(Document Obect Model) with event handlers.</p>
+                    <p>Developed multiple mini-games like Snake Game, Simon Says, Guesser Game, and Rock Paper Scissors using JavaScript and DOM(Document Obejct Model) with event handlers.</p>
                 </div>
                 <div class="project-item">
                     <h2>Netflix & Amazon UI Clones</h2>
@@ -226,7 +279,6 @@
             </div>
         </section>
         
-        
     </main>
     <footer class="footer">
         <div class="footer-content">
@@ -234,7 +286,7 @@
             <div class="footer-links">
                 <a href="https://github.com/PrasoonGupta2003" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
                 <a href="https://www.linkedin.com/in/prasoon-gupta-a58b4a282/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-                <a href="My_Resume.pdf" download>
+                <a href="assets/My_Resume.pdf" download>
                     <i class="fa-solid fa-address-card"></i> Download Resume
                 </a>   
             </div>

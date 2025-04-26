@@ -1,0 +1,133 @@
+/* Media Queries */
+
+@media (max-width: 1024px) {
+    .firstSection {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
+    .firstSection > div {
+        width: 80%;
+    }
+
+    .leftSection {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+
+    .left {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn button {
+        width: 80%;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-item {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .project-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .educationSection .card-container,
+    .experienceSection .card-container,
+    .contact-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .education-item,
+    .experience-item {
+        width: 90%;
+    }
+
+    .education-item p,
+    .experience-item p,
+    .education-item ul li,
+    .experience-item ul li {
+        font-size: 1rem;
+    }
+
+    .contact-btn {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .leftSection {
+        font-size: 1.8rem;
+    }
+
+    .btn button {
+        font-size: 1rem;
+        padding: 12px 20px;
+    }
+
+    .rightSection img {
+        width: 100%;
+    }
+
+    .contact-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-btn {
+        width: 90%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .educationSection h2,
+    .experienceSection h2,
+    .contactSection h2 {
+        font-size: 2rem;
+    }
+
+    .education-item h3,
+    .experience-item h3 {
+        font-size: 1.2rem;
+    }
+
+    .education-item p,
+    .experience-item p {
+        font-size: 0.9rem;
+    }
+
+    .education-item ul li,
+    .experience-item ul li {
+        font-size: 0.9rem;
+    }
+}
+
