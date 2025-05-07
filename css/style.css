@@ -373,6 +373,47 @@ ul li strong {
     line-height: 1.6;
     color: #e0e0e0;
 }
+/* Style for View Project buttons */
+.project-item button {
+    background-color: #6c63ff; /* Primary purple */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 0.75rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-item button:hover {
+    background-color: #5a52d4;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-item button:active {
+    transform: scale(0.98);
+    background-color: #4e47c6;
+}
+.game-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.game-entry h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.game-entry a button {
+    padding: 6px 14px;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
 
 .left-nav {
     position: fixed;
