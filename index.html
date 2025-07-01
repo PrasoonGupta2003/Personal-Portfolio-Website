@@ -1,402 +1,668 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Prasoon Gupta - Full Stack Developer and DSA Enthusiast.">
-    <meta name="author" content="Prasoon Gupta">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Prasoon Gupta - Full Stack Developer and DSA Enthusiast."
+    />
+    <meta name="author" content="Prasoon Gupta" />
     <title>Prasoon Gupta- Developer's Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Courgette&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=Montserrat:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
-</head>
-<body>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Courgette&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=Montserrat:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
     <!-- Left Side Navbar -->
     <div class="left-nav" id="leftNav">
-        <span href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</span>
-        <p style="font-size: 1.4rem; color: #d39ff3;"><i>Prasoon's Portfolio</i></p>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact Me</a>
+      <span href="javascript:void(0)" class="close-btn" onclick="closeNav()"
+        >&times;</span
+      >
+      <p style="font-size: 1.4rem; color: #d39ff3">
+        <i>Prasoon's Portfolio</i>
+      </p>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact Me</a>
     </div>
 
     <header id="home">
-        <nav>
-            <div class="left">Prasoon's Portfolio</div>
-            <div class="right">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav>
+        <div class="left">Prasoon's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <!-- Hamburger Icon -->
     <div class="hamburger" onclick="openNav()">
-        <div></div>
-        <div></div>
-        <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
 
     <main>
-        <!-- Home section -->
-        <section id="homeSection" class="firstSection">
-            <div class="leftSection">
-                Hi, My name is <span class="purple">Prasoon Gupta </span>
-                <div>and I am a passionate</div>
-                <span id="element"></span>
-                <div class="btn">
-                    <button onclick="window.location.href='https://github.com/PrasoonGupta2003'">GitHub</button>
-                    <button onclick="window.location.href='https://www.linkedin.com/in/prasoon-gupta-a58b4a282/'">LinkedIn</button>
-                    <a href="assets/My_Resume.pdf" download>
-                        <button>Download Resume</button>
-                    </a>        
-                </div>
+      <!-- Home section -->
+      <section id="homeSection" class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Prasoon Gupta </span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="btn">
+            <button
+              onclick="window.location.href='https://github.com/PrasoonGupta2003'"
+            >
+              GitHub
+            </button>
+            <button
+              onclick="window.location.href='https://www.linkedin.com/in/prasoon-gupta-a58b4a282/'"
+            >
+              LinkedIn
+            </button>
+            <a href="assets/My_Resume.pdf" download>
+              <button>Download Resume</button>
+            </a>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="assets/img1.jpg" alt="developer's image" />
+        </div>
+      </section>
+
+      <hr />
+      <!-- About section -->
+      <section class="aboutSection" id="about">
+        <h2>About Me</h2>
+        <div class="card-container">
+          <!-- Introduction -->
+          <div class="project-item">
+            <h3>Introduction</h3>
+            <p style="font-size: 1.2rem">
+              I am Prasoon Gupta, a B.Tech CSE student at IET Lucknow with a
+              strong passion for web development, DSA, and problem solving. I’ve
+              solved 350+ LeetCode problems and enjoy teaching and sports.
+            </p>
+          </div>
+
+          <!-- Skills -->
+          <div class="project-item">
+            <h3>Skills</h3>
+            <ul style="list-style: none; padding-left: 0; line-height: 1.8">
+              <li>
+                <strong>Languages:</strong>
+                <i class="fab fa-java"></i> Java,
+                <i class="fas fa-code"></i> C++, <i class="fas fa-code"></i> C,
+                <i class="fab fa-js-square"></i> JavaScript,
+                <i class="fab fa-python"></i> Python (Basic)
+              </li>
+              <li>
+                <strong>Frontend:</strong>
+                <i class="fab fa-react"></i> React.js,
+                <i class="fab fa-html5"></i> HTML5,
+                <i class="fab fa-css3-alt"></i> CSS3,
+                <i class="fas fa-wind"></i> Tailwind CSS,
+                <i class="fab fa-bootstrap"></i> Bootstrap, MUI, GSAP
+              </li>
+              <li>
+                <strong>Backend:</strong>
+                <i class="fab fa-node-js"></i> Node.js,
+                <i class="fas fa-server"></i> Express.js, JWT, bcrypt, MVC, REST
+                APIs
+              </li>
+              <li>
+                <strong>Databases:</strong>
+                <i class="fas fa-database"></i> MongoDB,
+                <i class="fas fa-database"></i> MongoDB Atlas,
+                <i class="fas fa-database"></i> MySQL
+              </li>
+              <li>
+                <strong>Tools & Libraries:</strong>
+                <i class="fas fa-video"></i> WebRTC,
+                <i class="fas fa-bolt"></i> Socket.io,
+                <i class="fas fa-map-marked-alt"></i> MapBox,
+                <i class="fas fa-cloud-upload-alt"></i> Cloudinary,
+                <i class="fab fa-github"></i> GitHub,
+                <i class="fas fa-code"></i> VS Code,
+                <i class="fas fa-lightbulb"></i> IntelliJ
+              </li>
+              <li>
+                <strong>Other Concepts:</strong> Redux Toolkit, DSA, OOP, Auth
+                Systems, API Integration, Responsive Design
+              </li>
+            </ul>
+          </div>
+
+          <!-- Achievements -->
+          <div class="project-item">
+            <h3>Achievements</h3>
+            <ul>
+              <li>350+ LeetCode problems solved</li>
+              <li>JEE Mains 2023: 97 percentile — Top 3% nationwide</li>
+              <li>95% in 12th (PCMB), 96% in 10th (CBSE)</li>
+            </ul>
+          </div>
+
+          <!-- Certifications -->
+          <div class="project-item">
+            <h3>Certifications</h3>
+            <ul>
+              <li>
+                <strong>Front-End Development Certificate</strong> - Meta
+                (Coursera) <i>(2025)</i><br />
+                Covered HTML, CSS, JavaScript, React, and responsive design.
+                <br />
+                <a href="assets/certificates/Coursera Certificate.pdf" download
+                  ><button>Download Certificate</button></a
+                >
+              </li>
+              <li>
+                <strong>Java (Basic) Certificate</strong> - HackerRank
+                <i>(2025)</i><br />
+                Covered OOP, Java syntax, and logic building.
+                <br />
+                <a
+                  href="assets/certificates/HakerRank Java Basics Certification.pdf"
+                  download
+                  ><button>Download Certificate</button></a
+                >
+              </li>
+              <li>
+                <strong>Problem Solving (Basic)</strong> - HackerRank
+                <i>(2025)</i><br />
+                Tested logic, loops, and conditionals.
+                <br />
+                <a
+                  href="assets/certificates/HakerRankCertificationProblem Solving.pdf"
+                  download
+                  ><button>Download Certificate</button></a
+                >
+              </li>
+              <li>
+                <strong>Software Engineer Role Certificate</strong> - HackerRank
+                <i>(2025)</i><br />
+                Topics: problem solving, SQL, REST APIs.
+                <br />
+                <a
+                  href="assets/certificates/HakerRank software_engineer certificate.pdf"
+                  download
+                  ><button>Download Certificate</button></a
+                >
+              </li>
+              <li>
+                <strong>Full Stack Development</strong> - Infosys Springboard
+                <i>(2025)</i><br />
+                Frontend, backend, database training.
+                <br />
+                <a
+                  href="assets/certificates/InfosysSpringboardFullStackCerf.pdf"
+                  download
+                  ><button>Download Certificate</button></a
+                >
+              </li>
+              <li>
+                <strong>DSA in Java</strong> - PW Skills <i>(2024)</i><br />
+                Learned core DSA in Java; solved 350+ problems.
+                <br />
+                <a href="assets/certificates/PWskillsCertificate.pdf" download
+                  ><button>Download Certificate</button></a
+                >
+              </li>
+              <li>
+                <strong>Grammar & Vocabulary</strong> - Pearson <i>(2023)</i
+                ><br />
+                English proficiency certified.
+                <br />
+                <a href="assets/certificates/MEPROLEV10Certificate.pdf" download
+                  ><button>Download Certificate</button></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <!-- Education section -->
+      <section class="educationSection" id="education">
+        <h2>Education</h2>
+        <div class="card-container">
+          <div class="project-item">
+            <h3>
+              Bachelor of Technology (B.Tech) in Computer Science and
+              Engineering
+            </h3>
+            <p>
+              <strong
+                >Institute of Engineering and Technology (IET), Lucknow</strong
+              >
+            </p>
+            <p><i>2023 - Present</i></p>
+            <ul>
+              <li>
+                Currently pursuing B.Tech in Computer Science and Engineering.
+              </li>
+              <li>
+                Focus areas: Web Development, Data Structures & Algorithms, and
+                Problem Solving.
+              </li>
+            </ul>
+          </div>
+          <div class="project-item">
+            <h3>Senior Secondary Education (12th Grade)</h3>
+            <p>
+              <strong>St. Mary's Inter College, Etawah (CBSE Board)</strong>
+            </p>
+            <p><i>Graduated: 2022</i></p>
+            <ul>
+              <li>Stream: PCMB (Physics, Chemistry, Mathematics, Biology)</li>
+              <li>Scored 95% in 12th Board Examinations.</li>
+            </ul>
+          </div>
+          <div class="project-item">
+            <h3>Secondary Education (10th Grade)</h3>
+            <p>
+              <strong>St. Mary's Inter College, Etawah (CBSE Board)</strong>
+            </p>
+            <p><i>Graduated: 2020</i></p>
+            <ul>
+              <li>Scored 96% in 10th Board Examinations.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <!-- Experience section -->
+      <section id="experience" class="experienceSection">
+        <div class="card-container">
+          <h1
+            class="section-heading"
+            style="font-size: 2.5rem; padding: 60px 20px"
+          >
+            Experience
+          </h1>
+          <div class="project-list">
+            <div class="project-item">
+              <h3>Self-Taught Full Stack Developer</h3>
+              <p style="opacity: 0.8; font-style: italic">
+                Personal Projects & Learning | 2025 - Present
+              </p>
+              <ul>
+                <li>
+                  Developed full-stack applications using the MERN stack with
+                  authentication and REST APIs.
+                </li>
+                <li>Designed responsive UIs with React.js and Tailwind CSS.</li>
+                <li>
+                  Deployed projects on GitHub with clean, reusable code and
+                  proper version control.
+                </li>
+              </ul>
             </div>
-            <div class="rightSection">
-                <img src="assets/img1.jpg" alt="developer's image">
-            </div> 
-        </section>
-
-        <hr>
-        <!-- About section -->
-        <section class="aboutSection" id="about">
-            <h2>About Me</h2>
-            <div class="card-container">
-              <div class="project-item">
-                <h3>Introduction</h3>
-                <p style="font-size: 1.2rem;">I am Prasoon Gupta, a B.Tech CSE student at IET Lucknow with a strong passion for web development, DSA, and problem solving. I’ve solved 350+ LeetCode problems and enjoy teaching and sports.</p>
-              </div>
-              <div class="project-item">
-                <h3>Skills</h3>
-                <ul style="list-style: none; padding-left: 0;">
-                  <li><strong>Languages:</strong>
-                    <i class="fab fa-java"></i> Java,
-                    <i class="fab fa-js-square"></i> JavaScript,
-                    <i class="fas fa-code"></i> C++,
-                    <i class="fab fa-python"></i> Python,
-                    <i class="fas fa-code"></i> C
-                  </li>
-                  <li><strong>Frontend:</strong>
-                    <i class="fab fa-react"></i> React,
-                    <i class="fab fa-html5"></i> HTML,
-                    <i class="fab fa-css3-alt"></i> CSS,
-                    <i class="fas fa-wind"></i> Tailwind,
-                    <i class="fab fa-bootstrap"></i> Bootstrap
-                  </li>
-                  <li><strong>Backend:</strong>
-                    <i class="fab fa-node-js"></i> Node.js,
-                    <i class="fas fa-server"></i> Express
-                  </li>
-                  <li><strong>Databases:</strong>
-                    <i class="fas fa-database"></i> MongoDB,
-                    <i class="fas fa-database"></i> MySQL
-                  </li>
-                  <li><strong>Tools:</strong>
-                    <i class="fab fa-github"></i> GitHub,
-                    <i class="fas fa-code"></i> VS Code,
-                    <i class="fas fa-lightbulb"></i> IntelliJ
-                  </li>
-                </ul>
-              </div>              
-              <div class="project-item">
-                <h3>Achievements</h3>
-                <ul>
-                  <li>350+ Leetcode problems solved</li>
-                  <li>Cracked JEE Mains 2023 with 97 percentile — Top 3% nationwide.</li>
-                  <li>95% in 12th (PCMB), 96% in 10th (CBSE)</li>
-                </ul>
-              </div>
-              <div class="project-item">
-                <h3>Certifications</h3>
-                <ul>
-                    <li>
-                        <strong>Front-End Development Certificate</strong> - Meta (Coursera) <i>(2025)</i><br />
-                        Completed Meta's professional certification covering HTML, CSS, JavaScript, React, and responsive web design.
-                        <br />
-                        <a href="assets/certificates/Coursera Certificate.pdf" download>
-                        <button>Download Certificate</button>
-                        </a>
-                    </li>
-                    <li>
-                        <strong>Java (Basic) Certificate</strong> - HackerRank <i>(2025)</i><br />
-                        Validated core Java programming skills including OOP concepts, syntax, and logic-building fundamentals.
-                        <br />
-                        <a href="assets/certificates/HakerRank Java Basics Certification.pdf" download>
-                        <button>Download Certificate</button>
-                        </a>
-                    </li>
-                    <li>
-                        <strong>Problem Solving (Basic) Certificate</strong> - HackerRank <i>(2025)</i><br />
-                        Demonstrated foundational programming skills such as loops, conditionals, and algorithmic thinking.
-                        <br />
-                        <a href="assets/certificates/HakerRankCertificationProblem Solving.pdf" download>
-                        <button>Download Certificate</button>
-                        </a>
-                    </li>
-                    <li>
-                        <strong>Software Engineer Role Certificate</strong> - HackerRank <i>(2025)</i><br />
-                        Covered essential topics including problem solving, SQL, and REST APIs relevant to software engineering roles.
-                        <br />
-                        <a href="assets/certificates/HakerRank software_engineer certificate.pdf" download>
-                        <button>Download Certificate</button>
-                        </a>
-                    </li>
-                    <li>
-                        <strong>Full Stack Development Program</strong> - Infosys Springboard <i>(2025)</i><br />
-                        Completed a comprehensive curriculum on full stack development encompassing front-end, back-end, and database technologies.
-                        <br />
-                        <a href="assets/certificates/InfosysSpringboardFullStackCerf.pdf" download>
-                        <button>Download Certificate</button>
-                        </a>
-                    </li>
-                    <li>
-                        <strong>Data Structures & Algorithms in Java</strong> - PW Skills <i>(2024)</i><br />
-                        Gained in-depth knowledge of DSA concepts using Java. Solved 350+ LeetCode problems alongside the course.
-                        <br />
-                        <a href="assets/certificates/PWskillsCertificate.pdf" download>
-                        <button>Download Certificate</button>
-                        </a>
-                    </li>
-                    <li>
-                        <strong>Grammar and Vocabulary Certification</strong> - Pearson <i>(2023)</i><br />
-                        Demonstrated proficiency in English grammar and vocabulary, improving communication and writing skills.
-                        <br />
-                        <a href="assets/certificates/MEPROLEV10Certificate.pdf" download>
-                        <button>Download Certificate</button>
-                        </a>
-                    </li>
-                </ul>          
-              </div>    
+            <div class="project-item">
+              <h3>Competitive Programmer</h3>
+              <p style="opacity: 0.8; font-style: italic">
+                LeetCode & DSA Practice | 2024 - Present
+              </p>
+              <ul>
+                <li>
+                  Solved over 350 problems on LeetCode in Java, C++, and Python.
+                </li>
+                <li>
+                  Practiced algorithms including DP, recursion, graphs, and
+                  greedy techniques.
+                </li>
+                <li>
+                  Improved time/space complexity analysis and coding efficiency.
+                </li>
+              </ul>
             </div>
-        </section>
-          <hr>
-
-          <!-- Education section -->
-          <section class="educationSection" id="education">
-              <h2>Education</h2>
-              <div class="card-container">
-                  <div class="project-item">
-                      <h3>Bachelor of Technology (B.Tech) in Computer Science and Engineering</h3>
-                      <p><strong>Institute of Engineering and Technology (IET), Lucknow</strong></p>
-                      <p><i>2023 - Present</i></p>
-                      <ul>
-                          <li>Currently pursuing B.Tech in Computer Science and Engineering.</li>
-                          <li>Focus areas: Web Development, Data Structures & Algorithms, and Problem Solving.</li>
-                      </ul>
-                  </div>
-                  <div class="project-item">
-                      <h3>Senior Secondary Education (12th Grade)</h3>
-                      <p><strong>St. Mary's Inter College, Etawah (CBSE Board)</strong></p>
-                      <p><i>Graduated: 2022</i></p>
-                      <ul>
-                          <li>Stream: PCMB (Physics, Chemistry, Mathematics, Biology)</li>
-                          <li>Scored 95% in 12th Board Examinations.</li>
-                      </ul>
-                  </div>
-                  <div class="project-item">
-                      <h3>Secondary Education (10th Grade)</h3>
-                      <p><strong>St. Mary's Inter College, Etawah (CBSE Board)</strong></p>
-                      <p><i>Graduated: 2020</i></p>
-                      <ul>
-                          <li>Scored 96% in 10th Board Examinations.</li>
-                      </ul>
-                  </div>
-              </div>
-          </section>
-          <hr>
-        <!-- Experience section -->
-        <section id="experience" class="experienceSection">
-            <div class="card-container">
-                <h1 class="section-heading" style="font-size: 2.5rem;  padding: 60px 20px;">Experience</h1>
-                <div class="project-list">
-                    <div class="project-item">
-                        <h3>Self-Taught Full Stack Developer</h3>
-                        <p style="opacity: 0.8; font-style: italic;">Personal Projects & Learning | 2025 - Present</p>
-                        <ul>
-                            <li>Developed full-stack applications using the MERN stack with authentication and REST APIs.</li>
-                            <li>Designed responsive UIs with React.js and Tailwind CSS.</li>
-                            <li>Deployed projects on GitHub with clean, reusable code and proper version control.</li>
-                        </ul>
-                    </div>
-                    <div class="project-item">
-                        <h3>Competitive Programmer</h3>
-                        <p style="opacity: 0.8; font-style: italic;">LeetCode & DSA Practice | 2024 - Present</p>
-                        <ul>
-                            <li>Solved over 350 problems on LeetCode in Java, C++, and Python.</li>
-                            <li>Practiced algorithms including DP, recursion, graphs, and greedy techniques.</li>
-                            <li>Improved time/space complexity analysis and coding efficiency.</li>
-                        </ul>
-                    </div>
-                    <div class="project-item">
-                        <h3>Tech Stack Explorer</h3>
-                        <p style="opacity: 0.8; font-style: italic;">Tooling & Environment</p>
-                        <ul>
-                            <li>Proficient with VS Code, IntelliJ IDEA, Git/GitHub, MySQL, and MongoDB.</li>
-                            <li>Connected frontend, backend, and databases in real-world full-stack apps.</li>
-                            <li>Comfortable navigating CLI, debugging tools, and database UIs.</li>
-                        </ul>
-                    </div>
-                    <div class="project-item">
-                        <h3>Project Contributor</h3>
-                        <p style="opacity: 0.8; font-style: italic;">Solo & Team-Based Builds | 2024 - Present</p>
-                        <ul>
-                            <li>Created and maintained personal and collaborative projects using Git and GitHub workflows.</li>
-                            <li>Followed structured development practices like branching, commits, and PR reviews.</li>
-                            <li>Built projects from idea to deployment, integrating frontend, backend, and databases.</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="project-item">
+              <h3>Tech Stack Explorer</h3>
+              <p style="opacity: 0.8; font-style: italic">
+                Tooling & Environment
+              </p>
+              <ul>
+                <li>
+                  Proficient with VS Code, IntelliJ IDEA, Git/GitHub, MySQL, and
+                  MongoDB.
+                </li>
+                <li>
+                  Connected frontend, backend, and databases in real-world
+                  full-stack apps.
+                </li>
+                <li>
+                  Comfortable navigating CLI, debugging tools, and database UIs.
+                </li>
+              </ul>
             </div>
-        </section>
+            <div class="project-item">
+              <h3>Project Contributor</h3>
+              <p style="opacity: 0.8; font-style: italic">
+                Solo & Team-Based Builds | 2024 - Present
+              </p>
+              <ul>
+                <li>
+                  Created and maintained personal and collaborative projects
+                  using Git and GitHub workflows.
+                </li>
+                <li>
+                  Followed structured development practices like branching,
+                  commits, and PR reviews.
+                </li>
+                <li>
+                  Built projects from idea to deployment, integrating frontend,
+                  backend, and databases.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <hr>
+      <hr />
 
-        <!-- Project Section -->
-<section id="projects" class="projectSection">
-    <h1 class="section-heading" style="font-size: 2.5rem; padding: 60px 20px;">Projects</h1>
-    <div class="project-list">
-        <div class="project-item">
+      <!-- Project Section -->
+      <section id="projects" class="projectSection">
+        <h1
+          class="section-heading"
+          style="font-size: 2.5rem; padding: 60px 20px"
+        >
+          Projects
+        </h1>
+        <div class="project-list">
+          <div class="project-item">
+            <h2>Portfolio Website</h2>
+            <p>
+              A responsive personal portfolio website showcasing my projects,
+              certifications, and experience. Built using HTML, CSS, and
+              JavaScript. Deployed on Render to ensure accessibility and
+              performance across devices.
+            </p>
+            <a
+              href="https://personal-portfolio-website-8bv4.onrender.com"
+              target="_blank"
+            >
+              <button>View</button>
+            </a>
+          </div>
+
+          <div class="project-item">
+            <h2>QuickKart - E-Commerce Platform</h2>
+            <p>
+              A full-featured MERN stack E-Commerce app with role-based access
+              (admin/user), cart, checkout, product CRUD, reviews, and Web
+              Speech API voice search. JWT for secure authentication and
+              Cloudinary for image storage.
+            </p>
+            <a href="https://quick-kart-website.onrender.com" target="_blank">
+              <button>View</button>
+            </a>
+          </div>
+
+          <div class="project-item">
+            <h2>UniMeet - Zoom Clone</h2>
+            <p>
+              Real-time video conferencing tool using WebRTC, Socket.io, and JWT
+              cookies for room-based video/audio calling with mute and screen
+              sharing features.
+            </p>
+            <a href="https://unimeet-vwm9.onrender.com" target="_blank">
+              <button>View</button>
+            </a>
+          </div>
+
+          <div class="project-item">
+            <h2>UniChat - Real-Time Chat App</h2>
+            <p>
+              Private real-time chat app using Socket.io and MERN stack.
+              Includes JWT-based protected endpoints, Redux Toolkit, image
+              messaging, and responsive UI with Tailwind CSS.
+            </p>
+            <a href="https://unichat-app-n7nx.onrender.com" target="_blank">
+              <button>View</button>
+            </a>
+          </div>
+
+          <div class="project-item">
+            <h2>LifeLink - Social Help Platform</h2>
+            <p>
+              A social platform for posting and responding to help requests,
+              featuring role-based dashboards, real-time messaging with
+              Socket.io, and karma point gamification.
+            </p>
+            <a href="https://lifelink-1-kip8.onrender.com" target="_blank">
+              <button>View</button>
+            </a>
+          </div>
+
+          <div class="project-item">
+            <h2>AI Assistant - Gemini API App</h2>
+            <p>
+              AI chatbot built with Gemini API and React.js. Features user
+              authentication via JWT, profile image uploads using Cloudinary,
+              and secure interaction logging.
+            </p>
+            <a
+              href="https://virtual-assistant-majorproject.onrender.com"
+              target="_blank"
+            >
+              <button>View</button>
+            </a>
+          </div>
+
+          <div class="project-item">
             <h2>Wanderlust - Airbnb Clone</h2>
-            <p>A full-stack MERN application where users can list rental places. Used MongoDB, Express, React, Node.js, NPM packages and along with Bootstrap for styling. Deployed on Render. Learned about MVC model that made me organise a clean architecture for the app.</p>
-            <a href="https://wanderlust-majorproject-ms1d.onrender.com" target="_blank">
-                <button>View</button>
+            <p>
+              A full-stack MERN application where users can list rental places.
+              Used MongoDB, Express, React, Node.js, NPM packages and Bootstrap.
+              Deployed on Render. Learned about MVC model that made me organise
+              a clean architecture for the app.
+            </p>
+            <a
+              href="https://wanderlust-majorproject-ms1d.onrender.com"
+              target="_blank"
+            >
+              <button>View</button>
             </a>
-        </div>
-        <div class="project-item">
+          </div>
+
+          <div class="project-item">
+            <h2>Zerodha Clone</h2>
+            <p>
+              A responsive Zerodha trading platform UI replica built with
+              React.js and Tailwind CSS. It features dynamic routing and modern
+              design principles, simulating a seamless stock trading experience.
+              Designed to reflect clean layout and component-based architecture.
+            </p>
+            <a
+              href="https://zerodha-frontend-qqte.onrender.com"
+              target="_blank"
+            >
+              <button>View</button>
+            </a>
+          </div>
+
+          <div class="project-item">
             <h2>Chatbox - WhatsApp Clone</h2>
-            <p>A CRUD chat app (ChatBox) implementing RESTful API concepts where users can create, edit, and delete messages. Chats are stored and managed using MongoDB Atlas, allowing real-time data persistence and demonstrating my ability to integrate back-end services with front-end interfaces.</p>
-            <a href="https://chatbox-mongodb-expressjs-dz1y.onrender.com" target="_blank">
-                <button>View</button>
+            <p>
+              A CRUD chat app implementing RESTful API where users can create,
+              edit, and delete messages. Uses MongoDB Atlas and demonstrates
+              backend integration with frontend UI.
+            </p>
+            <a
+              href="https://chatbox-mongodb-expressjs-dz1y.onrender.com"
+              target="_blank"
+            >
+              <button>View</button>
             </a>
-        </div>
-        <div class="project-item">
+          </div>
+
+          <div class="project-item">
             <h2>Frontend Games Collection</h2>
-            <p>This section showcases a collection of interactive frontend games built using HTML, CSS, and JavaScript. Each game focuses on enhancing logical thinking, UI interactivity, and DOM manipulation.</p>
-            
+            <p>
+              Interactive games built using HTML, CSS, and JavaScript to enhance
+              logic and UI interactivity.
+            </p>
             <div class="game-entry">
-                <h3>Snake Game</h3>
-                <a href="https://snake-game-js-6075.onrender.com" target="_blank">
-                    <button>View</button>
-                </a>
+              <h3>Snake Game</h3>
+              <a href="https://snake-game-js-6075.onrender.com" target="_blank">
+                <button>View</button>
+              </a>
             </div>
-        
             <div class="game-entry">
-                <h3>Simon Says Game</h3>
-                <a href="https://simonsays-game-webd-lkkh.onrender.com" target="_blank">
-                    <button>View</button>
-                </a>
+              <h3>Simon Says Game</h3>
+              <a
+                href="https://simonsays-game-webd-lkkh.onrender.com"
+                target="_blank"
+              >
+                <button>View</button>
+              </a>
             </div>
-        
             <div class="game-entry">
-                <h3>Rock Paper Scissors Game</h3>
-                <a href="https://luckgamewebd-ux0c.onrender.com" target="_blank">
-                    <button>View</button>
-                </a>
+              <h3>Rock Paper Scissors Game</h3>
+              <a href="https://luckgamewebd-ux0c.onrender.com" target="_blank">
+                <button>View</button>
+              </a>
             </div>
-        
             <div class="game-entry">
-                <h3>Guesser Game</h3>
-                <a href="https://guessergame-41kc.onrender.com" target="_blank">
-                    <button>View </button>
-                </a>
+              <h3>Guesser Game</h3>
+              <a href="https://guessergame-41kc.onrender.com" target="_blank">
+                <button>View</button>
+              </a>
             </div>
-        </div>        
-        <div class="project-item">
+          </div>
+
+          <div class="project-item">
             <h2>UI Clone Projects</h2>
             <h3>Netflix UI Clone</h3>
-            <p>Designed a frontend clone of Netflix using HTML and CSS to enhance UI/UX skills and responsiveness. Media queries were used to adapt the layout for various screen sizes.</p>
+            <p>
+              Frontend clone of Netflix using HTML and CSS, featuring responsive
+              design with media queries.
+            </p>
             <a href="https://netflix-clone-hd9y.onrender.com" target="_blank">
-                <button>View</button>
+              <button>View</button>
             </a>
             <h3>Spotify UI Clone</h3>
-            <p>Built a static UI clone of Spotify focusing on layout, theming, and component styling using HTML and CSS. Practiced grid and flex layouts to mirror Spotify’s interface.</p>
-            <a href="https://spotifyclonefrontendwebd-dsul.onrender.com" target="_blank">
-                <button>View</button>
+            <p>
+              Static UI clone of Spotify with emphasis on layout, theming, and
+              responsive design.
+            </p>
+            <a
+              href="https://spotifyclonefrontendwebd-dsul.onrender.com"
+              target="_blank"
+            >
+              <button>View</button>
             </a>
-        </div>
-        <div class="project-item">
+          </div>
+
+          <div class="project-item">
             <h2>API Integration Projects</h2>
             <h3>Weather App</h3>
-            <p>A sleek and responsive weather application built using React.js that allows users to search for real-time weather updates of any city across the globe.</p>
-            <a href="https://weather-app-react-oyan.onrender.com" target="_blank">
-                <button>View</button>
+            <p>
+              A responsive weather app built using React.js that fetches
+              real-time weather data using OpenWeather API.
+            </p>
+            <a
+              href="https://weather-app-react-oyan.onrender.com"
+              target="_blank"
+            >
+              <button>View</button>
             </a>
             <h3>Currency Converter</h3>
-            <p>A currency converter using a live API. Styled using Typed.js for dynamic UI effects.</p>
-            <a href="https://currency-convertor-api-usage-s1hk.onrender.com" target="_blank">
-                <button>View</button>
+            <p>
+              A currency converter using a real-time API, enhanced with Typed.js
+              effects.
+            </p>
+            <a
+              href="https://currency-convertor-api-usage-s1hk.onrender.com"
+              target="_blank"
+            >
+              <button>View</button>
             </a>
+          </div>
         </div>
-        <div class="project-item">
-            <h2>Portfolio Website</h2>
-            <p>A responsive personal portfolio website showcasing my projects, certifications, and experience. Built using HTML, CSS, and JavaScript. Deployed on Render to ensure accessibility and performance across devices.</p>
-            <a href="https://personal-portfolio-website-8bv4.onrender.com" target="_blank">
-                <button>View</button>
-            </a>
+      </section>
+
+      <hr />
+      <!-- Contact section -->
+      <section class="contactSection" id="contact">
+        <h2>Contact Me</h2>
+        <p class="email">📧 prasoong82@gmail.com</p>
+        <p class="email">📧 prasoong297@gmail.com</p>
+        <div class="contact-buttons">
+          <a
+            href="https://github.com/PrasoonGupta2003"
+            target="_blank"
+            class="contact-btn"
+          >
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/prasoon-gupta-a58b4a282/"
+            target="_blank"
+            class="contact-btn"
+          >
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
         </div>
-    </div>
-</section>
-
-
-        <hr>
-        <!-- Contact section -->
-        <section class="contactSection" id="contact">
-            <h2>Contact Me</h2>
-            <p class="email">📧 prasoong82@gmail.com</p>
-            <p class="email">📧 prasoong297@gmail.com</p>
-            <div class="contact-buttons">
-                <a href="https://github.com/PrasoonGupta2003" target="_blank" class="contact-btn">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-                <a href="https://www.linkedin.com/in/prasoon-gupta-a58b4a282/" target="_blank" class="contact-btn">
-                    <i class="fab fa-linkedin"></i> LinkedIn
-                </a>
-            </div>
-        </section>
-        
+      </section>
     </main>
     <footer class="footer">
-        <div class="footer-content">
-            <p>© 2025 Prasoon Gupta. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="https://github.com/PrasoonGupta2003" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
-                <a href="https://www.linkedin.com/in/prasoon-gupta-a58b4a282/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-                <a href="assets/My_Resume.pdf" download>
-                    <i class="fa-solid fa-address-card"></i> Download Resume
-                </a>   
-            </div>
-            
+      <div class="footer-content">
+        <p>© 2025 Prasoon Gupta. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="https://github.com/PrasoonGupta2003" target="_blank"
+            ><i class="fa-brands fa-github"></i> GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/prasoon-gupta-a58b4a282/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+          >
+          <a href="assets/My_Resume.pdf" download>
+            <i class="fa-solid fa-address-card"></i> Download Resume
+          </a>
         </div>
+      </div>
     </footer>
 
     <!-- Typed Js -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
-        var typed = new Typed('#element', {
-            strings: ['<i>Web Developer</i>','<i>DSA Enthusiast</i>'],
-            typeSpeed: 50,
-        });
+      var typed = new Typed("#element", {
+        strings: ["<i>Web Developer</i>", "<i>DSA Enthusiast</i>"],
+        typeSpeed: 50,
+      });
 
-        function openNav() {
-            document.getElementById("leftNav").style.left = "0"; // Open the sidebar
-        }
+      function openNav() {
+        document.getElementById("leftNav").style.left = "0"; // Open the sidebar
+      }
 
-        function closeNav() {
-            document.getElementById("leftNav").style.left = "-250px"; // Close the sidebar
-        }
+      function closeNav() {
+        document.getElementById("leftNav").style.left = "-250px"; // Close the sidebar
+      }
     </script>
-</body>
+  </body>
 </html>
